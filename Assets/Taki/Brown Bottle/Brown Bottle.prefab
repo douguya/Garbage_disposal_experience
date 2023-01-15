@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5653011215335289242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1140819646570576538}
+  - component: {fileID: 458467435964968746}
+  - component: {fileID: 3405705476849884283}
+  - component: {fileID: 4538473460935446897}
+  m_Layer: 0
+  m_Name: Brown Bottle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1140819646570576538
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653011215335289242}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 358, y: -113.69}
+  m_SizeDelta: {x: 202.4737, y: 228.092}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &458467435964968746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653011215335289242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5323eef88ef49eb448d9b7cc47a2e1cd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3405705476849884283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653011215335289242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u8336\u8272\u306E\u30D3\u30F3"
+  L_Category: 7
+  S_Category: 71
+  NeedDisa: 0
+  NeedWash: 1
+  Parts: []
+  WashedParts:
+  - {fileID: 8587040136740369015, guid: 8298ae4ea1ff1a34d9bb8bc4fcd42636, type: 3}
+  WashedSprite: {fileID: 21300000, guid: 5323eef88ef49eb448d9b7cc47a2e1cd, type: 3}
+  PartsCount: 0
+  PartsNum: 0
+  Before_Dissa: {fileID: 0}
+  Before_Wash: {fileID: 0}
+  Miss_Usable: {fileID: 0}
+  Miss_Garbage: {fileID: 0}
+  Miss_metals: {fileID: 0}
+  Miss_paper: {fileID: 0}
+  Miss_cloth: {fileID: 0}
+  Miss_biomass: {fileID: 0}
+  Miss_plastic: {fileID: 0}
+  Miss_bottles: {fileID: 0}
+  Miss_Dangerous: {fileID: 0}
+  Miss_Oversized_Garbage: {fileID: 0}
+  Miss_Burnable: {fileID: 0}
+  Miss_landfill: {fileID: 0}
+  Miss_Costs_money: {fileID: 0}
+  MissImages: []
+  PartDisaPosi: []
+  DisaPosi_keep: {x: 0, y: 0, z: 0}
+  DissaTiem: 0
+  WashTiem: 0
+  befor_Drag: {x: 0, y: 0, z: 0}
+  Commentary: {fileID: 0}
+  OneTime_Disassemblyed: 0
+  CanTrach: 0
+  WashSound_bool: 0
+  DissaSound_bool: 0
+  NameText: {fileID: 0}
+  Text: {fileID: 0}
+  Corect: 0
+  OutingBox: 1
+--- !u!222 &4538473460935446897
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653011215335289242}
+  m_CullTransparentMesh: 1

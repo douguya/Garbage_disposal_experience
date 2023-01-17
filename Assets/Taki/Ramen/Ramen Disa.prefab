@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8714425340976743521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4127933331179245409}
+  - component: {fileID: 3512967855157648081}
+  - component: {fileID: 1864247273709529472}
+  - component: {fileID: 605656651262289034}
+  m_Layer: 0
+  m_Name: Ramen Disa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4127933331179245409
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8714425340976743521}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 236.3296, y: 23.818}
+  m_SizeDelta: {x: 166.0045, y: 246.06}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3512967855157648081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8714425340976743521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 276e48e80f786214aa91f0b1c01e0293, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1864247273709529472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8714425340976743521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b885a06855d8dbf419b315dc2316fb66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u30AB\u30C3\u30D7\u30E9\u30FC\u30E1\u30F3\u306E\u5BB9\u5668"
+  L_Category: 3
+  S_Category: 35
+  NeedDisa: 0
+  NeedWash: 1
+  Parts: []
+  WashedParts:
+  - {fileID: 4123318144004598420, guid: c19560b50dcd32f40b35baae9fd085d9, type: 3}
+  WashedSprite: {fileID: 21300000, guid: 276e48e80f786214aa91f0b1c01e0293, type: 3}
+  PartsCount: 1
+  PartsNum: 1
+  Before_Dissa: {fileID: 21300000, guid: 47000833f210fab48848c610bcbed58e, type: 3}
+  Before_Wash: {fileID: 0}
+  Miss_Usable: {fileID: 0}
+  Miss_Garbage: {fileID: 0}
+  Miss_metals: {fileID: 0}
+  Miss_paper: {fileID: 0}
+  Miss_cloth: {fileID: 0}
+  Miss_biomass: {fileID: 0}
+  Miss_plastic: {fileID: 0}
+  Miss_bottles: {fileID: 0}
+  Miss_Dangerous: {fileID: 0}
+  Miss_Oversized_Garbage: {fileID: 0}
+  Miss_Burnable: {fileID: 0}
+  Miss_landfill: {fileID: 0}
+  Miss_Costs_money: {fileID: 0}
+  MissImages: []
+  PartDisaPosi: []
+  DisaPosi_keep: {x: 0, y: 0, z: 0}
+  DissaTiem: 0
+  WashTiem: 0
+  befor_Drag: {x: 0, y: 0, z: 0}
+  Commentary: {fileID: 0}
+  OneTime_Disassemblyed: 0
+  CanTrach: 0
+  WashSound_bool: 0
+  DissaSound_bool: 0
+  NameText: {fileID: 0}
+  Text: {fileID: 0}
+  Corect: 0
+  OutingBox: 1
+--- !u!222 &605656651262289034
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8714425340976743521}
+  m_CullTransparentMesh: 1
